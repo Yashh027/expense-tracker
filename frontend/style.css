@@ -1,0 +1,98 @@
+/* style.css - the look of the page */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f4f8;
+    margin: 0;
+}
+
+.header {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.container {
+    width: 850px;
+    max-width: 95%;
+    margin: 20px auto;
+}
+
+.box {
+    background: white;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+}
+
+.box h2 {
+    margin-top: 0;
+    color: #2c3e50;
+}
+
+.total {
+    font-size: 32px;
+    font-weight: bold;
+    color: #27ae60;
+    margin: 0;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    box-sizing: border-box;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #ecf0f1;
+}
+
+.del {
+    color: #c0392b;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.error {
+    background: #fdecea;
+    color: #c0392b;
+    padding: 15px;
+    border-radius: 6px;
+    text-align: center;
+}
